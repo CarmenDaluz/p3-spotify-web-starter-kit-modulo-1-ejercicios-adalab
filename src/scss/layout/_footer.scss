@@ -1,10 +1,21 @@
 @use '../core/variables' as vars;
 
-.page__footer {
+/*.page__footer {
+
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100vw;
     padding: 1rem;
     color: vars.$color-secondary;
+
+}*/
+    
+.page__footer {
+  background: black;
+  color: grey;
+  display:flex;
+  text-align:right;
+  float: right;
+  
 }
